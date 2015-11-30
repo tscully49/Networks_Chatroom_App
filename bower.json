@@ -1,0 +1,21 @@
+{
+  "name": "Sockets_Test",
+  "description": "my test app for socket.io",
+  "main": "",
+  "authors": [
+    "tscully49 <thomas1374@yahoo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tscully49/Sockets_Test",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

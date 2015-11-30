@@ -1,0 +1,180 @@
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at null.<anonymous> (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:130:10)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at null.<anonymous> (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:130:10)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)
+/home/tscully/Sockets_Test/sockets/base.js:46
+	  		var cachedMessages = {"name": people[client.id].name, "message": " has left the server.", "type": "connection"};
+	  		                                               ^
+
+TypeError: Cannot read property 'name' of undefined
+    at Socket.<anonymous> (/home/tscully/Sockets_Test/sockets/base.js:46:53)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at Socket.emit (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:129:10)
+    at Socket.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/socket.js:418:8)
+    at Client.onclose (/home/tscully/Sockets_Test/node_modules/socket.io/lib/client.js:230:12)
+    at emitTwo (events.js:92:20)
+    at Socket.emit (events.js:172:7)
+    at Socket.onClose (/home/tscully/Sockets_Test/node_modules/socket.io/node_modules/engine.io/lib/socket.js:248:10)
+    at WebSocket.g (events.js:260:16)

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+    <style>
+      html, body { height: 100%; }
+      ul { margin-bottom: 0 !important; list-style: none;}
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font: 13px Helvetica, Arial; }
+      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; max-width: inherit; }
+      form input { outline: none; border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+      #messages { list-style-type: none; margin: 0; padding: 0; float: left; width: 80%; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+      #chat, #join, .container { padding-left: 0; padding-right: 0; }
+      .row { margin: 0 !important; }
+      #msgs { overflow: auto; padding-bottom: 0.5em }
+      #message-title-wrapper { border: solid black 3px; }
+      #people-wrapper { border: solid black 3px; }
+      #send, #login { border-radius: 0; }
+      #people-wrapper h4, #message-title-wrapper h4 { text-align: center; margin-top: .5em; }
+      .updated-person { color: #BFBFBF; }
+      .no-profile-image, .profile-picture {
+        display: inline-block;
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        margin-right: 0.25em;
+      }
+      .no-profile-image.all-people, .profile-picture.all-people {
+        width: 3em;
+        height: 3em;
+      }
+      .no-profile-image {
+        background-color: grey;
+      }
+      .message-list > .message-text, .message-list .no-profile-image, .message-list .profile-picture, .people-in-room { display: inline-block; vertical-align: middle; line-height: normal; }
+      .message-text { word-wrap: break-word; width: 30em; }
+      .people-in-room { word-wrap: break-word; width: 12em; }
+    </style>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="javascripts/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="messages-wrapper">
+        <div class="col-xs-8" id="message-title-wrapper">
+          <h4 id="div-title"> Messages </h4>
+          <ul id="msgs" class="unstyled"></ul>
+        </div>
+        <div class="col-xs-4" id="people-wrapper">
+          <h4> People in this room </h4>
+          <ul id="people" class="unstyled"></ul>
+        </div>
+      </div>
+      <div class="row" id="fixed-footer">
+        <div class="col-xs-12" id="chat">
+          <form id="2" class="form-inline">
+            <input type="text" class="input" placeholder="Your message" autocomplete="off" id="msg">
+            <input type="button" name="send" id="send" value="Send" class="btn btn-success">
+          </form>
+        </div>
+        <div class="col-xs-12" id="join">
+          <form id="2" class="form-inline">
+            <input type="text" class="input" placeholder="Your message" autocomplete="off" id="lgn">
+            <input type="button" name="login" id="login" value="Login" class="btn btn-primary">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
