@@ -33,6 +33,7 @@ $(document).ready(function() {
   });
 
   socket.on("loginError", function(message) {
+    $('#msgs').append($('<li class="message-list">').html("<div class='error-text'>" + message + "</div>"))
     console.log(message);
   });
 
