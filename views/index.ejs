@@ -39,7 +39,8 @@
       .message-list > .message-text, .message-list .no-profile-image, .message-list .profile-picture, .people-in-room, .message-list > .error-text { display: inline-block; vertical-align: middle; line-height: normal; }
       .message-text { word-wrap: break-word; width: 30em; }
       .people-in-room { word-wrap: break-word; width: 12em; }
-      .error-text { color: red; }
+      .error-text { color: red; text-align: center; }
+      #initial-message { text-align: center; }
     </style>
     <script src="socket.io/socket.io.js"></script>
     <script src="jquery/dist/jquery.min.js"></script>
@@ -50,7 +51,7 @@
     <div class="container">
       <div class="row" id="messages-wrapper">
         <div class="col-xs-8" id="message-title-wrapper">
-          <h4 id="div-title"> Messages </h4>
+          <h4 id="div-title"> My chat room client. Version Two </h4>
           <ul id="msgs" class="unstyled"></ul>
         </div>
         <div class="col-xs-4" id="people-wrapper">
