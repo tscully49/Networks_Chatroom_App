@@ -1,5 +1,6 @@
 var socket;
 var loggedIn = false;
+var ready = false;
 
 $(document).ready(function() {
   var calculatedHeight = parseInt($('body').height()) - parseInt($('#2').outerHeight());
@@ -8,10 +9,6 @@ $(document).ready(function() {
   $('.form-inline').css('width', $(document).find('.container').css('width'));
   $('#msgs, #people').css('height', calculatedHeight - $('#div-title').outerHeight(true) - 3);
   $('#chat').hide();
-
-  socket.on("show", function(text) {
-    console.log(text);
-  });
 
   $("form").submit(function(event){
     event.preventDefault();
@@ -45,7 +42,7 @@ $(document).ready(function() {
 
     jQuery.each(messages, function(i, message) {
       if (message.type === "message") {
-        $("#msgs").append($('<li class="message-list">').html("<div class='no-profile-image'></div>" + " <div class='message-text'>" + message.message + "</div>"));
+        $("#msgs").append($('<li class="message-list">').html("<div class='message-text'>" + message.name + ": " + message.message + "</div>"));
       } else {
         $("#msgs").append($('<li class="updated-person">').html(message.name + message.message));
       }
@@ -97,9 +94,35 @@ $(document).ready(function() {
     }
   });
 
+  socket.on("privateChat", function(person, msg){
+    if(ready) {
+      $("#msgs").append($('<li class="message-list">').html(" <div class='message-text'>" + person + " (to you): " + msg + "</div>"));
+      $("#msgs").scrollTop($('#msgs')[0].scrollHeight);
+    }
+  });
+
+  socket.on("who", function(msg){
+    if(ready) {
+      $("#msgs").append($('<li class="message-list">').html(" <div class='message-text'>" + msg + "</div>"));
+      $("#msgs").scrollTop($('#msgs')[0].scrollHeight);
+    }
+  });
+
   socket.on("disconnect", function(){
-    $("#msgs").append("The server is not available");
+    $("#msgs").append("The server is not available.  Please refresh the page");
     $("#msg").attr("disabled", "disabled");
+    $("#lgn").attr("disabled", "disabled");
     $("#send").attr("disabled", "disabled");
+  });
+
+  socket.on("disconnected", function() {
+    socket.disconnect();
+    $("#msg").attr("disabled", "disabled");
+    $("#lgn").attr("disabled", "disabled");
+    $("#send").attr("disabled", "disabled");
+    ready = false;
+    $('#people').empty();
+    $('#msgs').empty();
+    $("#msgs").append("You have disconnected from the server.  Please refresh the page to reconnect");
   });
 });
